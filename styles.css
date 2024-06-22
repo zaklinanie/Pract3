@@ -109,14 +109,14 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #task-container {
-position: relative; /* Устанавливаем относительное позиционирование для контейнера */
-/* Остальные стили */
+position: relative; 
+
 }
 
 .button-fixed {
-position: absolute; /* Абсолютное позиционирование для кнопки */
-bottom: 10px; /* Расстояние от нижней части контейнера */
-right: 10px; /* Расстояние от правой части контейнера */
+position: absolute; 
+bottom: 10px; 
+right: 10px; 
 }
 section {
 margin-bottom: 20px;
