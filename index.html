@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript для новичков</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Знакомство с JavaScript</h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Что такое JavaScript?</h2>
+            <p>JavaScript - это язык программирования, который делает веб-страницы живыми! Он позволяет создавать интерактивные элементы, анимации, игры и даже целые приложения.</p>
+            <p>Представьте себе сайт, где можно:</p>
+            <ul>
+                <li>Проигрывать музыку при нажатии на кнопку</li>
+                <li>Анимировать текст или изображения</li>
+                <li>Создать игру с управлением мышью</li>
+                <li>Изменить содержимое сайта без перезагрузки страницы</li>
+            </ul>
+            <p>Всё это возможно с помощью JavaScript!</p>
+        </section>
+
+        <section id="why-js">
+            <h2>Зачем изучать JavaScript?</h2>
+            <p>JavaScript - это один из самых востребованных языков программирования в мире. Знание JavaScript позволит вам:</p>
+            <ul>
+                <li>Создавать интерактивные веб-сайты</li>
+                <li>Разрабатывать веб-приложения</li>
+                <li>Работать с данными на стороне клиента</li>
+                <li>Изучать другие языки программирования</li>
+                <li>Получать интересную и высокооплачиваемую работу</li>
+            </ul>
+        </section>
+    </main>
+
+    <div id="menu">
+        <button onclick="showTask1()">Знак зодиака</button>
+        <button onclick="showTask2()">Числа от 1 до 5</button>
+        <button onclick="showTask3()">Дата</button>
+        <button onclick="showTask4()">Приветствие</button>
+        <button onclick="showTask5()">Вирусный текст</button>
+        <button onclick="showTask6()">Вычислить произведение</button>
+    </div>
+
+    <div id="task-container" style="max-width: 800px; margin: 0 auto; overflow: auto; display: none;"></div>
+    <div id="task-container1" style="max-width: 800px; margin: 0 auto; overflow: auto; display: none;"></div>
+
+    <div id="quiz-container">
+        <h1>Тест по JavaScript</h1>
+        <div id="questions"></div>
+        <button id="submit-button" onclick="checkAnswers()">Проверить ответы</button>
+        <div id="results"></div>
+    </div>
+    <h2>Заставка с красивым фоном</h2>
+    <button id="show-splash">Показать заставку</button>
+
+  <div id="splash-screen">
+      <img src="https://images.wallpaperscraft.ru/image/single/sobaka_oshejnik_platok_73198_1366x768.jpg" alt="Заставка"> 
+      <div id="date-and-name"></div> 
+  </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
